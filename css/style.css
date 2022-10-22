@@ -1,0 +1,169 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+
+/* Color */
+
+.Light-blue{
+    color: #DCEAF5;
+}
+.Dark-blue{
+    color: #063255;
+}
+.Orange{
+    color: #F58A07;
+}
+.Black{
+    color: #1D3444;
+}
+.Gray{
+    color: #5B5B5B;
+}
+.bg-lightblue{
+    background-color: #DCEAF5;
+}
+.bg-darkblue{
+    background-color: #063255;
+}
+.white{
+    color: white;
+}
+
+/* Font-size */
+
+.XXL{
+    font-size: 64px;
+}
+.XL{
+    font-size: 48px;
+}
+.large{
+    font-size: 36px;
+}
+.medium{
+    font-size: 24px;
+}
+.normal{
+    font-size: 16px;
+}
+
+section{
+    padding: 5% 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.nav{
+   display: flex;
+   align-items: center;
+}
+.nav li a{
+    color: #1d3444;
+}
+.nav li {
+    list-style: none;
+    padding: 0 15px;
+    list-style: none;
+}
+#vip{
+    color: orange;
+    background-color: rgba(255, 166, 0, 0.267);
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+
+
+
+
+h1{
+    font-size: 4rem;
+}
+.col-2{
+    width: calc(100%/2 - 40px);
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+.col-2 img{
+    vertical-align: bottom;
+
+}
+.col-3{
+    width: calc(100%/3 - 40px);
+    flex-basis:400px ;
+    flex-grow: 1;
+}
+.col-3 .demo{
+    width: 100%;
+}
+.col-3 a{
+    color: orange;
+
+}
+.head{
+    background-color: #dceaf5;
+}
+.serv{
+    display: flex;
+}
+.serv .our-service{
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.all-service{
+    color: #063255;
+    align-self: center;
+    padding: 0 30px;
+}
+.img img{
+    padding: 0 20px;
+}
+.keep{
+    align-self: center;
+}
+.demo{
+    border-radius: 20px;
+}
+.tip{
+    margin: 20px 0;
+}
+.icon{
+    background-color: white;
+   border-radius: 10px;
+   padding: 30px;
+}
+.award{
+    display: flex;
+}
+.job{
+    background-color: orange;
+}
+.vacancies{
+    padding: 15px;
+    border-radius: 30px;
+    background-color: white;
+
+}
+.col-2star{
+    position: relative;
+    right: -34px;
+    top: -35px;
+}
+.text-block{
+    max-width: 50%;
+}

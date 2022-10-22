@@ -30,7 +30,9 @@ body{
 .white{
     color: white;
 }
-
+.bg-orange{
+    background-color: #F58A07;
+}
 /* Font-size */
 
 .XXL{
@@ -151,7 +153,7 @@ h1{
     display: flex;
 }
 .job{
-    background-color: orange;
+    background-color:   #F58A07;
 }
 .vacancies{
     padding: 15px;
@@ -165,5 +167,21 @@ h1{
     top: -35px;
 }
 .text-block{
-    max-width: 50%;
+    max-width: 60%;
+}
+.imgexp{
+    background-image: url(/images/experience-image.png);
+    height: 518px;
+}
+.strategy a{
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #DCEAF5;
+    border-color: #5B5B5B;
+    padding: 10px 30px;
+    color: #5B5B5B;
+    border: 1px solid;
+}
+.business{
+    color: #F58A07;
 }
